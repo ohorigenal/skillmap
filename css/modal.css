@@ -41,6 +41,12 @@
   color: #333;
 }
 
+.help-modal p span {
+  color: darkslategrey;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
 .list-modal span {
   margin: 0 10px;
 }
