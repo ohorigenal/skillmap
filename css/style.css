@@ -1,0 +1,192 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  background: url('../img/bg.webp') no-repeat;
+  background-size: cover;
+  font-family: 'Georgia', serif;
+  color: rgb(230, 230, 230);
+}
+
+#skill-map {
+  position: relative;
+  width: 600px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scale: 0.8;
+}
+
+.skill-button {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(240, 240, 240));
+  color: rgb(150, 50, 50);
+  border: 3px solid rgb(200, 200, 200);
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(200, 200, 200, 0.8);
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.skill-button:hover {
+  z-index: 1;
+  transform: scale(1.2);
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
+#center-circle {
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(circle, rgb(180, 180, 180), rgb(140, 140, 140));
+  border: 5px solid rgb(100, 100, 100);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 15px rgba(100, 100, 100, 0.8);
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#center-circle:hover {
+  cursor: pointer;
+  background: radial-gradient(circle, rgb(200, 200, 200), rgb(160, 160, 160));
+}
+
+#download-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 100px;
+  height: 50px;
+  background: linear-gradient(to bottom, rgb(169, 169, 169), rgb(105, 105, 105));
+  border: 3px solid rgb(200, 200, 200);
+  border-radius: 5px;
+  color: rgb(230, 230, 230);
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(200, 200, 200, 0.8);
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+#download-button:hover {
+  transform: scale(1.1);
+  background: linear-gradient(to bottom, rgb(169, 169, 169), rgb(105, 105, 105));
+}
+
+
+#list-button {
+  position: absolute;
+  top: 20px;
+  right: 140px;
+  width: 100px;
+  height: 50px;
+  background: linear-gradient(to bottom, rgb(100, 149, 237), rgb(70, 130, 180));
+  border: 3px solid rgb(200, 200, 200);
+  border-radius: 5px;
+  color: rgb(230, 230, 230);
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(200, 200, 200, 0.8);
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+#list-button:hover {
+  transform: scale(1.1);
+  background: linear-gradient(to bottom, rgb(100, 149, 237), rgb(70, 130, 180));
+}
+
+#help-button {
+  position: absolute;
+  top: 20px;
+  right: 260px;
+  width: 100px;
+  height: 50px;
+  background: linear-gradient(to bottom, rgb(177, 168, 56), rgb(181, 99, 106));
+  border: 3px solid rgb(200, 200, 200);
+  border-radius: 5px;
+  color: rgb(230, 230, 230);
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(200, 200, 200, 0.8);
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+#help-button:hover {
+  transform: scale(1.1);
+  background: linear-gradient(to bottom, rgb(187, 178, 66), rgb(191, 109, 116));
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    min-width: 300vw;
+    min-height: 300vh;
+    font-size: 10px;
+  }
+
+  #download-button {
+    right: calc(20px - 200vw);
+  }
+
+  #list-button {
+    right: calc(140px - 200vw);
+  }
+
+  #help-button {
+    right: calc(260px - 200vw);
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  body {
+    min-width: 200vw;
+    min-height: 200vh;
+  }
+
+  #download-button {
+    right: calc(20px - 100vw);
+  }
+
+  #list-button {
+    right: calc(140px - 100vw);
+  }
+
+  #help-button {
+    right: calc(260px - 100vw);
+  }
+}
+
+@media screen and (max-height: 480px) {
+  body {
+    min-height: 300vh;
+    font-size: 10px;
+  }
+}

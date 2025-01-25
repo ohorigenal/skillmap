@@ -1,0 +1,648 @@
+{
+  "skills": [
+    {
+      "id": "101",
+      "name": "データベース",
+      "contents": [
+        {
+          "id": "1",
+          "title": "NoSQLの基本",
+          "description": " NoSQL(AWS DynamoDB, Cassandra, Redisなどいずれか１つ)の特徴理解",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "2",
+          "title": "RDBの基本",
+          "description": " RDB(PostgreSQL, MySQL, Oracleなどいずれか１つ)の特徴理解",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "3",
+          "title": "テーブル設計",
+          "description": "テーブルの正規化",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "4",
+          "title": "トランザクション",
+          "description": "ACID特性, 分離レベル, ロック(楽観ロック, 悲観ロック, デッドロック)の理解と利用, トランザクション制御操作 ",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "5",
+          "title": "SQLの基本",
+          "description": "基本的なDDL,DML, DCL操作, 条件指定(WHERE), NULL値の扱い",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "6",
+          "title": "SQLの応用",
+          "description": "結合(JOIN), サブクエリ, 集計関数(GROUP BY, HAVING)",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "7",
+          "title": "ビュー",
+          "description": "View, Materialized Viewの理解と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "8",
+          "title": "パフォーマンスチューニング",
+          "description": "SQLクエリのパフォーマンスチューニング(クエリの最適化やインデックスの活用など)",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "9",
+          "title": "ER図",
+          "description": "ER図の理解と作成",
+          "checkstyle": {
+            "type": "scale"
+          }
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "name": "Git",
+      "contents": [
+        {
+          "id": "1",
+          "title": "基本操作",
+          "description": "clone, add, commit, push, pull, fetch, branch, mergeなどの基本操作",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "2",
+          "title": "コンフリクトの解消",
+          "description": "コンフリクトの解消対応",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "3",
+          "title": "応用操作",
+          "description": "reset, revert, reflog, stash, cherry-pick, rebaseなどの応用操作",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "4",
+          "title": "開発フロー",
+          "description": "Gitフロー,GitHubフローなどGitでのチーム開発",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "5",
+          "title": "Git関連ファイル",
+          "description": ".gitkeep, .gitignoreなどのGit関連ファイル",
+          "checkstyle": {
+            "type": "scale"
+          }
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "name": "ツール",
+      "contents": [
+        {
+          "id": "1",
+          "title": "WinMerge",
+          "description": "WinMergeでの比較",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "2",
+          "title": "WinSCP, TeraTerm",
+          "description": "WinSCP, TeraTermでのサーバアクセス",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "3",
+          "title": "サクラエディタ",
+          "description": "サクラエディタでのgrep操作",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "4",
+          "title": "IDEでのデバッグ",
+          "description": "IDE(Eclipse, VSCode, IntelliJなどいずれか１つ)でのデバッグ操作",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "5",
+          "title": "エクセル関数",
+          "description": "エクセルでの基本関数の利用(SUM, COUNT, IF, IFERROR, VLOOKUP, INDEX, MATCH, CONCAT, TEXT)",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "6",
+          "title": "A5M2",
+          "description": "A5M2でのDBアクセス, SQL実行, ER図の操作",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "7",
+          "title": "AIツール",
+          "description": "ChatGPT, Microsoft Copilot, GitHub Copilotなどいずれか１つのAIツールでの作業の効率化",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "8",
+          "title": "デベロッパーツール",
+          "description": "chromeのデベロッパーツールでHTML, CSS, リクエスト, レスポンス, コンソールの確認",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "9",
+          "title": "タスク管理",
+          "description": "タスク管理ツールの利用(JIRA, Redmine, Backlogなどいずれか１つ)",
+          "checkstyle": {
+            "type": "scale"
+          }
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "name": "システム開発全般",
+      "contents": [
+        {
+          "id": "1",
+          "title": "ウォーターフォール",
+          "description": "ウォーターフォール開発の理解",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "2",
+          "title": "アジャイル",
+          "description": "アジャイル開発の理解",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "3",
+          "title": "環境",
+          "description": "ローカル、開発(テスト)、ステージング、本番環境の違いとその役割の理解",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "4",
+          "title": "要件定義書",
+          "description": "要件定義書の記載項目の大まかな理解",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "5",
+          "title": "基本設計書",
+          "description": "各基本設計書(画面, バッチ, 帳票, IFファイルなど)の記載項目の大まかな理解",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "6",
+          "title": "詳細設計書",
+          "description": "詳細設計書に記載される処理フローなどの項目理解",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "7",
+          "title": "テスト仕様書",
+          "description": "テスト仕様書の構成要素(テストケース, 実施日, 実施者)の理解",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "8",
+          "title": "リリース",
+          "description": "手動, 自動リリース手法の理解",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "9",
+          "title": "UML図",
+          "description": "クラス図, シーケンス図, アクティビティ図の理解",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "10",
+          "title": "ライセンス",
+          "description": "ライセンス(MITやApache, GPLなど)の注意点の理解",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "name": "テスト",
+      "contents": [
+        {
+          "id": "1",
+          "title": "テスト区分の理解",
+          "description": "単体, 結合, システム, シナリオテスト, 負荷テストの理解",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "2",
+          "title": "単体テスト仕様書",
+          "description": "単体テスト仕様書の作成",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "3",
+          "title": "結合テスト仕様書",
+          "description": "結合テスト仕様書の作成",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "4",
+          "title": "テストエビデンス",
+          "description": "テストエビデンスの取得とまとめの作成",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "5",
+          "title": "負荷テストツール",
+          "description": "負荷テストツールの利用(Jmeter, Locust, vegeta…などいずれか１つ)",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "6",
+          "title": "テストフレームワーク",
+          "description": "テスティングフレームワークの利用(JavaならJunit, jsならJestなど…いずれか１つ)",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "7",
+          "title": "モック化",
+          "description": "スタブやスパイを含むモック化の理解とモック実装(Mockitoなどのライブラリ利用)",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "8",
+          "title": "E2Eテストフレームワーク",
+          "description": "E2Eテストフレームワークの利用(PlayWrightやCypressなどいずれか１つ)",
+          "checkstyle": {
+            "type": "scale"
+          }
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "name": "CI/CD",
+      "contents": [
+        {
+          "id": "1",
+          "title": "基本知識",
+          "description": "CI/CDの概要理解",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "2",
+          "title": "ツール",
+          "description": "ツール(GitHub Actions, Circle CI, Jenkins…などのいずれか１つ)操作",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "3",
+          "title": "設定ファイル",
+          "description": "CI/CDの設定ファイルの作成",
+          "checkstyle": {
+            "type": "scale"
+          }
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "name": "HTTP",
+      "contents": [
+        {
+          "id": "1",
+          "title": "HTTPメソッド",
+          "description": "GET, PUT, POST, PATCH, DELETEメソッドの理解と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "2",
+          "title": "HTTPレスポンスステータスコード",
+          "description": "2xx,3xx,4xx,5xxの区分の理解と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "3",
+          "title": "HTTPヘッダー",
+          "description": "基本的なヘッダーの理解と利用(User-Agent, MIMEタイプ, Keep-Alive, Referer)",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "4",
+          "title": "Cookie",
+          "description": "Cookieの用途理解とSet-Cookieヘッダーの理解と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "5",
+          "title": "キャッシュ",
+          "description": "キャッシュヘッダーの設定理解と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "6",
+          "title": "CORS",
+          "description": "CORSの概要とCORSヘッダーとプリフライトリクエストの理解と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "name": "WEBセキュリティ",
+      "contents": [
+        {
+          "id": "1",
+          "title": "パスワードの扱い",
+          "description": "ハッシュ化、ソルト、ストレッチングの理解",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "2",
+          "title": "SQLインジェクション",
+          "description": "SQLインジェクションの脅威理解と対策",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "3",
+          "title": "XSS",
+          "description": "XSSの脅威理解と対策",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "4",
+          "title": "CSRF",
+          "description": "CSRFの脅威理解と対策",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "5",
+          "title": "セッション管理の不備",
+          "description": "セッション管理の不備による脅威理解と対策",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "6",
+          "title": "OSコマンドインジェクション",
+          "description": "OSコマンド・インジェクションの脅威理解と対策",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "7",
+          "title": "ディレクトリトラバーサル",
+          "description": "ディレクトリトラバーサルの脅威理解と対策",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "8",
+          "title": "クリックジャッキング",
+          "description": "クリックジャッキングの脅威理解と対策",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "9",
+          "title": "HTTPヘッダ, メールヘッダ・インジェクション",
+          "description": "HTTPヘッダ, メールヘッダ・インジェクションの脅威理解と対策",
+          "checkstyle": {
+            "type": "scale"
+          }
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "name": "サーバー",
+      "contents": [
+        {
+          "id": "1",
+          "title": "Linuxディストリビューション",
+          "description": "Linuxディストリビューションという用語の理解",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "2",
+          "title": "基本Linuxコマンド",
+          "description": "cd, ls, vim, grep, パイプなどの利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "3",
+          "title": "応用Linuxコマンド",
+          "description": "sed, awkの利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "4",
+          "title": "シェルスクリプト",
+          "description": "if, for, 文字列処理を含むシェルスクリプトの作成",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "5",
+          "title": "冗長化",
+          "description": "サーバーの冗長化という用語の理解",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "6",
+          "title": "cron",
+          "description": "cronの設定理解",
+          "checkstyle": {
+            "type": "scale"
+          }
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "name": "その他",
+      "contents": [
+        {
+          "id": "1",
+          "title": "Paiza",
+          "description": "PaizaBランクを取得",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "2",
+          "title": "テキストコミュニケーション",
+          "description": "チャットツールやメールなど、テキストベースのコミュニケーションでの言語化",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "3",
+          "title": "対面コミュニケーション",
+          "description": "対面やリモート通話など、会話ベースのコミュニケーションでの言語化",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "4",
+          "title": "ドキュメンテーション(文章)",
+          "description": "知見や調査, 検討事項などの文章化",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "5",
+          "title": "ドキュメンテーション(図表)",
+          "description": "知見や調査, 検討事項などの図表化",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "6",
+          "title": "正規表現",
+          "description": "正規表現の理解と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "7",
+          "title": "業務知識",
+          "description": "業務知識とは何かを理解し, 重要性を理解している",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "8",
+          "title": "ホスピタリティ",
+          "description": "ポジティブな振る舞い, 相手の負荷に配慮した行動",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        }
+      ]
+    }
+  ]
+}

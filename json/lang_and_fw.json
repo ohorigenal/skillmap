@@ -1,0 +1,412 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "name": "Java",
+      "contents": [
+        {
+          "id": "1",
+          "title": "基本構文",
+          "description": "if, for, 配列, 型, メソッド, クラスの作成と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "2",
+          "title": "例外処理",
+          "description": "try-catch-finally, 検査例外, 非検査例外の理解と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "3",
+          "title": "カプセル化",
+          "description": "カプセル化と適切なアクセス修飾子の利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "4",
+          "title": "ポリモーフィズム",
+          "description": "インターフェイスとポリモーフィズムの理解と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "5",
+          "title": "抽象・継承クラス",
+          "description": "抽象・継承クラスの理解と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "6",
+          "title": "オブジェクト指向",
+          "description": "オブジェクト指向でのプログラミング",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "7",
+          "title": "コレクション",
+          "description": "Set,List,Map,Queueの違い、HashSet, TreeSet, LinkedHashSet, ArrayList, LinkedList・HashMap, TreeMap, LinkedHashMapの理解と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "8",
+          "title": "ファイル操作",
+          "description": "ファイルの入出力APIの利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "9",
+          "title": "ラムダ・ストリームAPI",
+          "description": "ラムダ・ストリームAPIの理解と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "10",
+          "title": "ジェネリクス",
+          "description": "ジェネリクスの理解と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "11",
+          "title": "スレッド",
+          "description": "並列処理の理解とスレッドセーフな実装",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "12",
+          "title": "メモリ管理",
+          "description": "HeapとGCの仕組みの理解",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "13",
+          "title": "列挙型",
+          "description": "enumの定義と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "14",
+          "title": "Objectクラス",
+          "description": "全てのクラスのルートとなるObjectクラスの理解",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "15",
+          "title": "リフレクション",
+          "description": "リフレクションAPIの理解と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "16",
+          "title": "バージョン",
+          "description": "Javaのバージョン理解(LTS, 新機能)",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Spring Boot",
+      "contents": [
+        {
+          "id": "1",
+          "title": "Springフレームワーク",
+          "description": "DIとSpringBootの自動設定の理解",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "2",
+          "title": "基本コンポーネント",
+          "description": "Controller, Service, Repositoryの役割理解と作成",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "3",
+          "title": "テンプレートエンジン",
+          "description": "テンプレートエンジン(Thymeleaf, JSP, GreeMarker...)のいずれか１つの利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "4",
+          "title": "Springテスト",
+          "description": "基本コンポーネント(Controller, Service, Repository)のユニットテスト",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "5",
+          "title": "例外ハンドリング",
+          "description": "アプリケーション全体の例外ハンドリングの作成",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "6",
+          "title": "バリデーション",
+          "description": "バリデーション作成",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "7",
+          "title": "ログ",
+          "description": "ログ設定",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "8",
+          "title": "AOP",
+          "description": "AOPの利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "9",
+          "title": "ORM",
+          "description": "ORM(MyBatis or JPA)の利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "10",
+          "title": "HTTPクライアント",
+          "description": "RestTemplate, RestClient, WebClientなどいずれか1つのHTTPクライアントの利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "11",
+          "title": "アプリケーションプロパティ",
+          "description": "環境(ローカル,開発, 本番など)ごとのアプリケーションプロパティファイルの設定",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "12",
+          "title": "監視",
+          "description": "Spring Boot Actuatorの利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "13",
+          "title": "キャッシュ",
+          "description": "Caffeineなどいずれか１つのキャッシュライブラリの利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "14",
+          "title": "メトリクス",
+          "description": "Prometheusの利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "15",
+          "title": "Spring Security",
+          "description": "Spring Securityでのログイン機能の作成、権限ロールの設定",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "16",
+          "title": "ビルドツール",
+          "description": "Maven, Gradleでのパッケージ管理, タスク(フェーズ/ゴール)の理解と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "HTML・CSS",
+      "contents": [
+        {
+          "id": "1",
+          "title": "HTMLの基本",
+          "description": "HTMLの基本的な構造やタグ(head, body, metaなど), 属性(lang, title, alt, id, classなど)の理解と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "2",
+          "title": "CSSの基本",
+          "description": "CSSの適用方法(インライン, 内外スタイルシート), 基本的なセレクタ, プロパティの理解と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "3",
+          "title": "レイアウト",
+          "description": "ボックスモデル, フレックスボックス, グリッドレイアウトの作成",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "4",
+          "title": "レスポンシブ",
+          "description": "レスポンシブデザインの作成",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "5",
+          "title": "セマンティクス",
+          "description": "セマンティックなタグ(header, nav, section, articleなど)の正しい利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "6",
+          "title": "アクセシビリティ",
+          "description": "アクセシビリティ対応(スクリーンリーダーやalt属性やaria属性など)",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "7",
+          "title": "SEO",
+          "description": "SEO対策",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "8",
+          "title": "CSS設計",
+          "description": "BEM, OOCSS, SMACSS, FLOCSSなどのいずれか１つのCSS設計手法の理解と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "9",
+          "title": "CSSフレームワーク",
+          "description": "Bootstrap, TailwindなどのCSSフレームワークの利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "10",
+          "title": "CSSプリプロセッサ",
+          "description": "Sass, LessなどのCSSプリプロセッサの利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "JavaScript",
+      "contents": [
+        {
+          "id": "1",
+          "title": "基本構文",
+          "description": "if, for, 配列, データ型, 関数(通常の関数定義), 組み込みオブジェクト(DateやArrayなど), try-catch-finalyの理解と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "2",
+          "title": "DOM操作",
+          "description": "DOM要素の取得, 作成, 削除, 内容や属性の変更, クラス, スタイル操作, イベント追加",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "3",
+          "title": "関数",
+          "description": "関数式, 無名関数, アロー関数, 即時実行関数の理解と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "4",
+          "title": "オブジェクト",
+          "description": "オブジェクトの作成, プロパティの操作, this, ゲッター・セッターの理解と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "5",
+          "title": "クラス",
+          "description": "クラス, コンストラクター, プライベート・パブリックフィールド, static, 継承の理解と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        },
+        {
+          "id": "6",
+          "title": "PromiseとFetch API",
+          "description": "Promise, async, awaitとFetch APIの理解と利用",
+          "checkstyle": {
+            "type": "scale"
+          }
+        }
+      ]
+    }
+  ]
+}
