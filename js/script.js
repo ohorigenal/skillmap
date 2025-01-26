@@ -327,7 +327,7 @@ function createCsv() {
   const csv = Array.from(scaleMap).map(([key, value]) => {
     // フォーマット： スキルID,スキル名,コンテンツID,コンテンツ名,スケール評価値
     const [skillId, contentId] = key.split('-');
-    const skill = langAndFwObj.skills.find(skill => skill.id === skillId);
+    const skill = langAndFwObj.skills.find(skill => skill.id === skillId) || otherSkillObj.skills.find(skill => skill.id === skillId);
     const content = skill.contents.find(content => content.id === contentId);
     const type = content.checkstyle.type;
     return `${skillId},${skill.name},${contentId},${content.title},${type},${value}`;
