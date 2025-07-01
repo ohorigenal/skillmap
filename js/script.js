@@ -1,6 +1,7 @@
+const path = `${window.location.pathname}`;
 // バージョンを管理　スキルデータ更新時は変更する
 const version = 'v1';
-const storageKey = `scaleMapJson-${version}`;
+const storageKey = `scaleMapJson-${version}-${path}`;
 // ローカルストレージからデータを取得
 const scaleMapJson = localStorage.getItem(storageKey);
 // キー：スキルID-コンテンツID、値：スケール評価値

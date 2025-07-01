@@ -7,7 +7,7 @@
         {
           "id": "1",
           "title": "基本構文",
-          "description": "if, for, 配列, 型, メソッド, クラスの作成と利用",
+          "description": "if, for, 配列, 値型・参照型, メソッド, クラス",
           "checkstyle": {
             "type": "scale"
           }
@@ -15,7 +15,7 @@
         {
           "id": "2",
           "title": "例外処理",
-          "description": "try-catch-finally, 検査例外, 非検査例外の理解と利用",
+          "description": "try-catch-finally, 検査例外, 非検査例外",
           "checkstyle": {
             "type": "scale"
           }
@@ -23,7 +23,7 @@
         {
           "id": "3",
           "title": "カプセル化",
-          "description": "カプセル化と適切なアクセス修飾子の利用",
+          "description": "カプセル化と適切なアクセス修飾子",
           "checkstyle": {
             "type": "scale"
           }
@@ -31,7 +31,7 @@
         {
           "id": "4",
           "title": "ポリモーフィズム",
-          "description": "インターフェイスとポリモーフィズムの理解と利用",
+          "description": "ポリモーフィズム",
           "checkstyle": {
             "type": "scale"
           }
@@ -39,7 +39,7 @@
         {
           "id": "5",
           "title": "抽象・継承クラス",
-          "description": "抽象・継承クラスの理解と利用",
+          "description": "抽象・継承クラス",
           "checkstyle": {
             "type": "scale"
           }
@@ -55,7 +55,7 @@
         {
           "id": "7",
           "title": "コレクション",
-          "description": "Set,List,Map,Queueの違い、HashSet, TreeSet, LinkedHashSet, ArrayList, LinkedList・HashMap, TreeMap, LinkedHashMapの理解と利用",
+          "description": "Set・List・Mapの違い、HashSet・TreeSet・LinkedHashSet・ArrayList・LinkedList・HashMap・TreeMap・LinkedHashMapの理解",
           "checkstyle": {
             "type": "scale"
           }
@@ -63,7 +63,7 @@
         {
           "id": "8",
           "title": "ファイル操作",
-          "description": "ファイルの入出力APIの利用",
+          "description": "ファイルの入出力",
           "checkstyle": {
             "type": "scale"
           }
@@ -71,7 +71,7 @@
         {
           "id": "9",
           "title": "ラムダ・ストリームAPI",
-          "description": "ラムダ・ストリームAPIの理解と利用",
+          "description": "ラムダ式とストリームAPI",
           "checkstyle": {
             "type": "scale"
           }
@@ -79,7 +79,7 @@
         {
           "id": "10",
           "title": "ジェネリクス",
-          "description": "ジェネリクスの理解と利用",
+          "description": "ジェネリクス",
           "checkstyle": {
             "type": "scale"
           }
@@ -103,7 +103,7 @@
         {
           "id": "13",
           "title": "列挙型",
-          "description": "enumの定義と利用",
+          "description": "enumクラス",
           "checkstyle": {
             "type": "scale"
           }
@@ -111,7 +111,7 @@
         {
           "id": "14",
           "title": "Objectクラス",
-          "description": "全てのクラスのルートとなるObjectクラスの理解",
+          "description": "Objectクラス",
           "checkstyle": {
             "type": "scale"
           }
@@ -119,7 +119,7 @@
         {
           "id": "15",
           "title": "リフレクション",
-          "description": "リフレクションAPIの理解と利用",
+          "description": "リフレクションAPI",
           "checkstyle": {
             "type": "scale"
           }
@@ -141,7 +141,7 @@
         {
           "id": "1",
           "title": "Springフレームワーク",
-          "description": "DIとSpringBootの自動設定の理解",
+          "description": "DIとSpringBootの自動設定",
           "checkstyle": {
             "type": "boolean"
           }
@@ -149,7 +149,7 @@
         {
           "id": "2",
           "title": "基本コンポーネント",
-          "description": "Controller, Service, Repositoryの役割理解と作成",
+          "description": "Controller, Service, Repositoryの役割",
           "checkstyle": {
             "type": "scale"
           }
@@ -173,7 +173,7 @@
         {
           "id": "5",
           "title": "例外ハンドリング",
-          "description": "アプリケーション全体の例外ハンドリングの作成",
+          "description": "アプリケーション全体の例外ハンドリング",
           "checkstyle": {
             "type": "scale"
           }
@@ -181,7 +181,7 @@
         {
           "id": "6",
           "title": "バリデーション",
-          "description": "バリデーション作成",
+          "description": "バリデーション",
           "checkstyle": {
             "type": "scale"
           }
@@ -213,7 +213,7 @@
         {
           "id": "10",
           "title": "HTTPクライアント",
-          "description": "RestTemplate, RestClient, WebClientなどいずれか1つのHTTPクライアントの利用",
+          "description": "RestTemplate, RestClient, WebClientなどいずれか1つのHTTPクライアント",
           "checkstyle": {
             "type": "scale"
           }
@@ -229,7 +229,7 @@
         {
           "id": "12",
           "title": "監視",
-          "description": "Spring Boot Actuatorの利用",
+          "description": "Spring Boot Actuator",
           "checkstyle": {
             "type": "scale"
           }
@@ -237,7 +237,7 @@
         {
           "id": "13",
           "title": "キャッシュ",
-          "description": "Caffeineなどいずれか１つのキャッシュライブラリの利用",
+          "description": "Caffeineなどいずれか１つのキャッシュライブラリ",
           "checkstyle": {
             "type": "scale"
           }
@@ -245,7 +245,7 @@
         {
           "id": "14",
           "title": "メトリクス",
-          "description": "Prometheusの利用",
+          "description": "Prometheus",
           "checkstyle": {
             "type": "scale"
           }
@@ -253,7 +253,7 @@
         {
           "id": "15",
           "title": "Spring Security",
-          "description": "Spring Securityでのログイン機能の作成、権限ロールの設定",
+          "description": "Spring Securityでの認証・認可の設定、仕組みの理解",
           "checkstyle": {
             "type": "scale"
           }
@@ -261,7 +261,7 @@
         {
           "id": "16",
           "title": "ビルドツール",
-          "description": "Maven, Gradleでのパッケージ管理, タスク(フェーズ/ゴール)の理解と利用",
+          "description": "Maven, Gradleでのパッケージ管理, タスク(フェーズ/ゴール)の理解",
           "checkstyle": {
             "type": "scale"
           }
@@ -283,7 +283,7 @@
         {
           "id": "2",
           "title": "CSSの基本",
-          "description": "CSSの適用方法(インライン, 内外スタイルシート), 基本的なセレクタ, プロパティの理解と利用",
+          "description": "CSSの適用方法(インライン, スタイルシート), 基本的なセレクタ, プロパティの理解と利用",
           "checkstyle": {
             "type": "scale"
           }
@@ -299,7 +299,7 @@
         {
           "id": "4",
           "title": "レスポンシブ",
-          "description": "レスポンシブデザインの作成",
+          "description": "レスポンシブデザイン",
           "checkstyle": {
             "type": "scale"
           }
@@ -331,7 +331,7 @@
         {
           "id": "8",
           "title": "CSS設計",
-          "description": "BEM, OOCSS, SMACSS, FLOCSSなどのいずれか１つのCSS設計手法の理解と利用",
+          "description": "BEM, OOCSS, SMACSS, FLOCSSなどのいずれか１つのCSS設計手法",
           "checkstyle": {
             "type": "scale"
           }
@@ -339,7 +339,7 @@
         {
           "id": "9",
           "title": "CSSフレームワーク",
-          "description": "Bootstrap, TailwindなどのCSSフレームワークの利用",
+          "description": "Bootstrap, TailwindなどのCSSフレームワーク",
           "checkstyle": {
             "type": "scale"
           }
@@ -347,7 +347,7 @@
         {
           "id": "10",
           "title": "CSSプリプロセッサ",
-          "description": "Sass, LessなどのCSSプリプロセッサの利用",
+          "description": "Sass, LessなどのCSSプリプロセッサ",
           "checkstyle": {
             "type": "scale"
           }
@@ -361,7 +361,7 @@
         {
           "id": "1",
           "title": "基本構文",
-          "description": "if, for, 配列, データ型, 関数(通常の関数定義), 組み込みオブジェクト(DateやArrayなど), try-catch-finalyの理解と利用",
+          "description": "if, for, 配列, データ型, 関数(通常の関数定義), 組み込みオブジェクト(DateやArrayなど), try-catch-finaly",
           "checkstyle": {
             "type": "scale"
           }
@@ -377,7 +377,7 @@
         {
           "id": "3",
           "title": "関数",
-          "description": "関数式, 無名関数, アロー関数, 即時実行関数の理解と利用",
+          "description": "関数式, 無名関数, アロー関数, 即時実行関数",
           "checkstyle": {
             "type": "scale"
           }
@@ -385,7 +385,7 @@
         {
           "id": "4",
           "title": "オブジェクト",
-          "description": "オブジェクトの作成, プロパティの操作, this, ゲッター・セッターの理解と利用",
+          "description": "オブジェクトの作成, プロパティの操作, this, ゲッター・セッター",
           "checkstyle": {
             "type": "scale"
           }
@@ -393,7 +393,7 @@
         {
           "id": "5",
           "title": "クラス",
-          "description": "クラス, コンストラクター, プライベート・パブリックフィールド, static, 継承の理解と利用",
+          "description": "クラス, コンストラクター, プライベート・パブリックフィールド, static, 継承",
           "checkstyle": {
             "type": "scale"
           }
@@ -401,7 +401,7 @@
         {
           "id": "6",
           "title": "PromiseとFetch API",
-          "description": "Promise, async, awaitとFetch APIの理解と利用",
+          "description": "Promise, async, awaitとFetch API",
           "checkstyle": {
             "type": "scale"
           }

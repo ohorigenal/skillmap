@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skill Map</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/modal.css">
+  <link rel="shortcut icon" href="./img/favicon.ico">
+</head>
+<body>
+<div id="skill-map">
+  <div id="center-circle">Skill Map</div>
+</div>
+
+<div id="help-button">使い方</div>
+<div id="list-button">一覧</div>
+<div id="download-button">CSV出力</div>
+
+<!-- 一覧モーダル -->
+<div class="list-modal-overlay" id="listModalOverlay">
+  <div class="list-modal">
+    <div class="list-modal-main">
+      <h2>スキル一覧</h2>
+
+      <div id="skill-list"></div>
+    </div>
+    <button class="list-close-button" id="listCloseModal">閉じる</button>
+  </div>
+</div>
+
+<!-- 使い方モーダル -->
+<div class="help-modal-overlay" id="helpModalOverlay">
+  <div class="help-modal">
+    <div class="help-modal-main">
+      <h2>使い方</h2>
+      <p>このスキルマップは、WEBシステムに携わる駆け出しエンジニアのスキルを確認するためのツールです。</p>
+      <p>評価は○✖︎形式または５段階スケールで行います。</p>
+      <p>目標として全項目で○もしくは「３」以上の評価を目指します</p>
+
+      <p><b>評価スケール</b></p>
+      <p><span>１: 知識がない</span><br>
+        この技術や概念について聞いたことがない、または聞いたことはあるが、その意味や用途についての理解が全くない</p>
+      <p><span>２: 用語レベル</span><br>
+        名称とおおまかな用途は知っており、簡単な使用シーンを想像できるが、他者に説明するのは難しい</p>
+      <p><span>３: 基本的な理解がある</span><br>
+        キーとなる概念・用語を把握している</p>
+      <p><span>４: タスク遂行が可能</span><br>
+        基本理解に加え、チュートリアルやドキュメントを参考にしながら単独でタスクを完了できる</p>
+      <p><span>５: 基本的な理解があり、使用例を含めて人に説明できる</span><br>
+        基本的な理解に加え、具体的な使用例を示しながら理由や代替案を含めて他者に説明できる</p>
+    </div>
+    <button class="help-close-button" id="helpCloseModal">閉じる</button>
+  </div>
+</div>
+
+<!-- スケール評価モーダル  -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <div class="modal-main">
+      <h2 id="title"></h2>
+      <p id="description"></p>
+
+      <input type="hidden" id="skill-content-id" value="">
+      <!-- ラジオボタン形式のスケール評価 -->
+      <div class="scale-container" id="scale-container">
+        <input type="radio" id="scale1" name="scale" value="1">
+        <label for="scale1">１</label>
+
+        <input type="radio" id="scale2" name="scale" value="2">
+        <label for="scale2">２</label>
+
+        <input type="radio" id="scale3" name="scale" value="3">
+        <label for="scale3">３</label>
+
+        <input type="radio" id="scale4" name="scale" value="4">
+        <label for="scale4">４</label>
+
+        <input type="radio" id="scale5" name="scale" value="5">
+        <label for="scale5">５</label>
+      </div>
+      <!-- ○✖︎形式のスケール評価 -->
+      <div class="boolean-container" id="boolean-container">
+        <input type="radio" id="boolean1" name="boolean" value="1">
+        <label for="boolean1">✖</label>
+
+        <input type="radio" id="boolean2" name="boolean" value="5">
+        <label for="boolean2">○</label>
+      </div>
+    </div>
+    <button class="cancel-button" id="cancelModal">キャンセル</button>
+    <button class="complete-button" id="completeModal">設定</button>
+  </div>
+</div>
+
+<script src="./js/script.js"></script>
+</body>
+</html>

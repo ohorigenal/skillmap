@@ -31,7 +31,7 @@
         {
           "id": "4",
           "title": "トランザクション",
-          "description": "ACID特性, 分離レベル, ロック(楽観ロック, 悲観ロック, デッドロック)の理解と利用, トランザクション制御操作 ",
+          "description": "ACID特性, 分離レベル, ロック(楽観ロック, 悲観ロック, デッドロック)の理解と利用, トランザクション制御操作",
           "checkstyle": {
             "type": "scale"
           }
@@ -39,7 +39,7 @@
         {
           "id": "5",
           "title": "SQLの基本",
-          "description": "基本的なDDL,DML, DCL操作, 条件指定(WHERE), NULL値の扱い",
+          "description": "基本的なDDL, DML, DCL操作, 条件指定(WHERE), NULL値の扱い",
           "checkstyle": {
             "type": "scale"
           }
@@ -55,7 +55,7 @@
         {
           "id": "7",
           "title": "ビュー",
-          "description": "View, Materialized Viewの理解と利用",
+          "description": "View, Materialized View",
           "checkstyle": {
             "type": "scale"
           }
@@ -71,7 +71,7 @@
         {
           "id": "9",
           "title": "ER図",
-          "description": "ER図の理解と作成",
+          "description": "ER図",
           "checkstyle": {
             "type": "scale"
           }
@@ -195,9 +195,9 @@
         {
           "id": "9",
           "title": "タスク管理",
-          "description": "タスク管理ツールの利用(JIRA, Redmine, Backlogなどいずれか１つ)",
+          "description": "タスク管理ツールの利用(JIRA, Redmine, Backlogなどいずれか１つ)方法の理解",
           "checkstyle": {
-            "type": "scale"
+            "type": "boolean"
           }
         }
       ]
@@ -257,7 +257,7 @@
         {
           "id": "7",
           "title": "テスト仕様書",
-          "description": "テスト仕様書の構成要素(テストケース, 実施日, 実施者)の理解",
+          "description": "テスト仕様書の構成要素(テストケース, テスト手順, 期待値など)の理解",
           "checkstyle": {
             "type": "boolean"
           }
@@ -638,6 +638,14 @@
           "id": "8",
           "title": "ホスピタリティ",
           "description": "ポジティブな振る舞い, 相手の負荷に配慮した行動",
+          "checkstyle": {
+            "type": "boolean"
+          }
+        },
+        {
+          "id": "9",
+          "title": "タイピング",
+          "description": "4打/秒以上のタイピングスピード",
           "checkstyle": {
             "type": "boolean"
           }
