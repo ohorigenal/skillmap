@@ -270,23 +270,23 @@ function createSkillButton(skills, radius) {
         document.getElementById('title').textContent = content.title;
         document.getElementById('description').textContent = content.description;
         document.getElementById('skill-content-id').value = `${skill.id}-${content.id}`;
+        const scaleValue = scaleMap.get(`${skill.id}-${content.id}`);
         switch (content.checkstyle.type) {
           case 'boolean':
             document.getElementById('boolean-container').style.display = 'flex';
             document.getElementById('scale-container').style.display = 'none';
+            booleanContainerInputs.forEach(input => {
+              scaleValue === input.value ? input.checked = true : input.checked = false;
+            });
             break;
           case 'scale':
             document.getElementById('boolean-container').style.display = 'none';
             document.getElementById('scale-container').style.display = 'flex';
+            scaleContainerInputs.forEach(input => {
+              scaleValue === input.value ? input.checked = true : input.checked = false;
+            });
             break;
         }
-        const scaleValue = scaleMap.get(`${skill.id}-${content.id}`);
-        scaleContainerInputs.forEach(input => {
-          scaleValue === input.value ? input.checked = true : input.checked = false;
-        });
-        booleanContainerInputs.forEach(input => {
-          scaleValue === input.value ? input.checked = true : input.checked = false;
-        });
         modalOverlay.style.display = 'flex';
       });
 
